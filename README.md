@@ -3,13 +3,15 @@
 Este é um projeto criado com Expo e React Native.
 O objetivo é facilitar o desenvolvimento mobile rodando no Android, iOS ou diretamente no seu celular físico.
 
+O projeto é baseado em um CRUD de itens para um To Do List onde o usuario pode criar, ler, editar e deletar os itens da lista tudo rodando em memoria para fins de testes, contudo ao reiniciar o projeto os dados são resetados.
+
 🚀 Como rodar o projeto
 1. Clonar o repositório
 
 Abra o terminal e rode:
 
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+git clone https://github.com/Guilherme-Dias-gomes/crudMobile
+cd crudMobile
 
 2. Instalar as dependências
 
