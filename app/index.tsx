@@ -1,18 +1,24 @@
-import { FlatList, ScrollView, StyleSheet, Text,  } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import NewItens from "./components/NewItens";
 
 
 
 export default function landingPage(){
     return(
-        <ScrollView style={{ flex: 1 }} contentContainerStyle={{ flexGrow: 1, alignItems: 'center', justifyContent: 'center', margin:30, borderRadius: 10}}>
+        <View style={styles.container}>
             <Text style={styles.title}>Lista To Do</Text>
             <NewItens/>
-        </ScrollView>
+        </View>
     )
 }
 
 const styles = StyleSheet.create({
+    container:{
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin:30, borderRadius: 10
+    },
     title:{
         fontSize: 30
     }
