@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+📱 Projeto React Native com Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um projeto criado com Expo e React Native.
+O objetivo é facilitar o desenvolvimento mobile rodando no Android, iOS ou diretamente no seu celular físico.
 
-## Get started
+🚀 Como rodar o projeto
+1. Clonar o repositório
 
-1. Install dependencies
+Abra o terminal e rode:
 
-   ```bash
-   npm install
-   ```
+git clone https://github.com/seu-usuario/seu-repo.git
+cd seu-repo
 
-2. Start the app
+2. Instalar as dependências
 
-   ```bash
-   npx expo start
-   ```
+Execute o comando:
 
-In the output, you'll find options to open the app in a
+npm install
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Isso vai baixar todas as bibliotecas necessárias.
 
-## Get a fresh project
+3. Rodar o app
 
-When you're ready, run:
+Inicie o servidor de desenvolvimento do Expo:
 
-```bash
-npm run reset-project
-```
+npx expo start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+Isso abrirá o Metro Bundler no seu navegador.
 
-To learn more about developing your project with Expo, look at the following resources:
+📲 Como abrir o app
+🔹 No celular físico
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Baixe o aplicativo Expo Go na Play Store
+ ou App Store
+.
 
-## Join the community
+No navegador que abriu após o npx expo start, escaneie o QR Code com o celular.
 
-Join our community of developers creating universal apps.
+O app abrirá automaticamente no Expo Go.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🔹 No Android Studio (Emulador)
+
+Instale o Android Studio
+.
+
+Configure um emulador Android (AVD).
+
+Com o emulador rodando, volte ao terminal do projeto e rode:
+
+npx expo start
+
+
+Pressione a para abrir no emulador Android.
+
+🔹 No iOS (somente em Mac)
+
+Instale o Xcode
+.
+
+Com o simulador iOS aberto, rode:
+
+npx expo start
+
+
+Pressione i para abrir no simulador.
+
+🛠 Scripts úteis
+
+npm start → inicia o servidor do Expo.
+
+npm run reset-project → reseta o projeto (limpa arquivos e recria estrutura inicial).
+
+npm run android → abre direto no emulador Android.
+
+npm run ios → abre direto no simulador iOS (MacOS necessário).
+
+📚 Documentação útil
+
+Expo Docs
+
+React Native Docs
